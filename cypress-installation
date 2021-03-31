@@ -1,0 +1,6 @@
+We need to generate a Package.json in order to run our test. 
+
+in PS run: npm init 
+type in a random package name, i put: automation
+this will autogenerate the Package.json
+

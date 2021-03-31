@@ -1,0 +1,23 @@
+Cypress is flake resistant. 
+
+Cypress does not need to worry about wait. If it notices anything loading, it will wait until the loading is complete to continue automation
+
+ex, If your element is hidden by a dropdown or something, Cypress can force click on the check box being hidden behind the dropdown. Think Ranorex/Selenium issues whenever there is a dropdown. Cypress avoids this
+
+Cypress was built on NodeJS. 
+
+Cypress can also listen on API calls. 
+
+With Cypress, you can inject responses to your API calls so that it can display error messages. For testing purposes
+
+Cypress takes snapshots when you run the tests. You can also view videos of your entire tests execution 
+
+##-----------------------------------------
+DIFFERENCES between CYPRESS & SELENIUM
+
+For Selenium Driver, you have to invoke ChromeDriver, and will inject all that code into the driver. That Driver will interpret all the code you injected and run the test based on the commands you gave it.
+
+Protractor is built on Selenium.
+
+Cypress directly interacts with the browser. There is no proxy server. The browser is executing the test code. 
+
