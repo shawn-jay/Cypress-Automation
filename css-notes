@@ -7,3 +7,7 @@ How to do children in CSS Selectors:
 
 div[class='header2020-search-box'] > input
 
+#----------------------
+Cypress also supports jQuery it seems like
+
+cy.get('span:contains("GeForce RTX 30 Series")').click();
