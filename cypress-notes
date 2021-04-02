@@ -21,3 +21,12 @@ Protractor is built on Selenium.
 
 Cypress directly interacts with the browser. There is no proxy server. The browser is executing the test code. 
 
+##-----------------------------------------
+How to open up Cypress in TestRunner vs How to run Cypress headless
+
+node_modules\.bin\cypress open -> open up the test runner, where you can define your browser
+vs
+node_modules\.bin\cypress run                      -> run headless in electron
+node_modules\.bin\cypress run --headed             -> run headed in electron
+node_modules\.bin\cypress run --browser chrome     -> run headed in chrome
+
