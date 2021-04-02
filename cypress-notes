@@ -30,3 +30,5 @@ node_modules\.bin\cypress run                      -> run headless in electron
 node_modules\.bin\cypress run --headed             -> run headed in electron
 node_modules\.bin\cypress run --browser chrome     -> run headed in chrome
 
+##----------------------------------------
+Cypress only supports CSS selectors only

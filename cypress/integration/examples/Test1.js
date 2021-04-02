@@ -1,8 +1,11 @@
+/// <reference types="Cypress" />
+
 describe("My First Test", function () {
   it("My First testcase", function () {
     //test step
-    cy.viewport(1920, 1080);
+    cy.viewport(1280, 720);
     cy.visit("https://www.newegg.com/");
+    cy.get(".header2020-search-box > input").click().type("RTX 3080");
   });
 
   it("My Second testcase", function () {

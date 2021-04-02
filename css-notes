@@ -1,0 +1,9 @@
+id  => tagname#idname
+classname => .classname => .header2020-search-button
+customized with any attribute => tagname[attribute=value] => input[type='search']
+tagnames => form input
+
+How to do children in CSS Selectors:
+
+div[class='header2020-search-box'] > input
+
